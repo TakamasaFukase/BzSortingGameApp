@@ -1,0 +1,6 @@
+framework module Pods_inabaApp4 {
+  umbrella header "Pods-inabaApp4-umbrella.h"
+
+  export *
+  module * { export * }
+}

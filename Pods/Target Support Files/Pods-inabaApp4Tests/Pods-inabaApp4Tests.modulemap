@@ -1,0 +1,6 @@
+framework module Pods_inabaApp4Tests {
+  umbrella header "Pods-inabaApp4Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
