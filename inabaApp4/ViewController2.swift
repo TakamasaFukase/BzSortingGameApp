@@ -14,11 +14,12 @@ class ViewController2: UIViewController, UITextFieldDelegate {
     
     var rslt:[[String]] = []
     var rankingList:[[String]] = []
-    let otsukare = UIImage(named: "otsukare")
-    let shoutingResult = UIImage(named: "shoutingResult")
+    let resultExplosion = UIImage(named: "resultExplosion")
+    let resultShouting = UIImage(named: "resultShouting")
     
     @IBOutlet weak var shoutingResultImage: UIImageView!
-    @IBOutlet weak var resultLabel: UILabel!
+
+    @IBOutlet weak var resultLabel1: UILabel!
     @IBOutlet weak var resultLabel2: UILabel!
     @IBOutlet weak var resultImage: UIImageView!
     @IBOutlet weak var weakPointLabel: UILabel!
@@ -39,18 +40,21 @@ class ViewController2: UIViewController, UITextFieldDelegate {
         
         super.viewDidLoad()
         
-        resultImage.image = otsukare
-        shoutingResultImage.image = shoutingResult
+        resultImage.image = resultExplosion
+        shoutingResultImage.image = resultShouting
         
         toNameRegisterVCButton.layer.borderColor = UIColor.red.cgColor
         toNameRegisterVCButton.layer.borderWidth = 2.0
         toNameRegisterVCButton.layer.cornerRadius = 20.0
         
-        //総合得点を小数点の左右で大きさを変えて別のlabelに表示するため２つに分離
+        //総合得点を小数点の左右で分割する
         let separatedTotalScore = rslt[0][0].components(separatedBy: ".")
-        resultLabel.text = "\(separatedTotalScore[0])"
-        resultLabel2.text = ". \(separatedTotalScore[1])点"
         
+        
+        
+        //総合得点を表示
+        resultLabel1.text = separatedTotalScore[0]
+        resultLabel2.text = ".\(separatedTotalScore[1])点"
         
         //下で作成した70%以下しかとれていない採点項目の配列のうち、特に点数の低い項目２つに対応するアドバイスを表示
         weakPointLabel.text = "\n\(findWeakPoint()[0][0])\n\(findWeakPoint()[1][0])"

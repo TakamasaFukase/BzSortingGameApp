@@ -60,6 +60,8 @@ class RankingWorldViewController: UIViewController, UITableViewDelegate, UITable
                     print("出力\(self.dicToArrRankingData)")
                 }
             }
+            self.worldRankingTableView.reloadData()
+            print("tableViewリロード")
         }
         
         rankingPictures += [ranking1!, ranking2!, ranking3!, ranking4!]

@@ -11,14 +11,14 @@
 		674A658E2318D03300AEC496 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A658D2318D03300AEC496 /* ViewController2.swift */; };
 		674A6590231AA62700AEC496 /* TopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A658F231AA62700AEC496 /* TopPageViewController.swift */; };
 		675153AD22F5EF77007634B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675153AC22F5EF77007634B1 /* AppDelegate.swift */; };
-		675153AF22F5EF77007634B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675153AE22F5EF77007634B1 /* ViewController.swift */; };
+		675153AF22F5EF77007634B1 /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675153AE22F5EF77007634B1 /* PlayGameViewController.swift */; };
 		675153B222F5EF78007634B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675153B022F5EF78007634B1 /* Main.storyboard */; };
 		675153B422F5EF7A007634B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675153B322F5EF7A007634B1 /* Assets.xcassets */; };
 		675153B722F5EF7A007634B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675153B522F5EF7A007634B1 /* LaunchScreen.storyboard */; };
 		675153C222F5EF7A007634B1 /* inabaApp4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675153C122F5EF7A007634B1 /* inabaApp4Tests.swift */; };
 		675153CD22F5EF7A007634B1 /* inabaApp4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675153CC22F5EF7A007634B1 /* inabaApp4UITests.swift */; };
-		676F52E923713EAD00408FA3 /* chooseRankingTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F52E823713EAD00408FA3 /* chooseRankingTypeViewController.swift */; };
-		676F52EB237155A700408FA3 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F52EA237155A700408FA3 /* menuViewController.swift */; };
+		676F52E923713EAD00408FA3 /* ChooseRankingTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F52E823713EAD00408FA3 /* ChooseRankingTypeViewController.swift */; };
+		676F52EB237155A700408FA3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F52EA237155A700408FA3 /* MenuViewController.swift */; };
 		676F52ED2371B83700408FA3 /* NameRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F52EC2371B83700408FA3 /* NameRegisterViewController.swift */; };
 		6775BDBE236ED2400045AD69 /* RankingWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775BDBD236ED2400045AD69 /* RankingWorldViewController.swift */; };
 		67EA3273236855D8005CB2E9 /* ultraSoulEditedForTitle1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67EA3271236855D8005CB2E9 /* ultraSoulEditedForTitle1.mp3 */; };
@@ -26,7 +26,7 @@
 		67EA3276236D844E005CB2E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67EA3275236D844E005CB2E9 /* GoogleService-Info.plist */; };
 		67EA3277236D844E005CB2E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67EA3275236D844E005CB2E9 /* GoogleService-Info.plist */; };
 		67EA3278236D844E005CB2E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67EA3275236D844E005CB2E9 /* GoogleService-Info.plist */; };
-		67F1CE26235C689A001D1E42 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1CE25235C689A001D1E42 /* RankingViewController.swift */; };
+		67F1CE26235C689A001D1E42 /* RankingLocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1CE25235C689A001D1E42 /* RankingLocalViewController.swift */; };
 		842F1AB6D1F930F67F73C6EE /* Pods_inabaApp4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72505A83B96C9FD56B010E71 /* Pods_inabaApp4.framework */; };
 		E8124E33D94D586E78B619C8 /* Pods_inabaApp4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D875A6CB7DD1176EB5A54E4 /* Pods_inabaApp4Tests.framework */; };
 /* End PBXBuildFile section */
@@ -61,7 +61,7 @@
 		674A658F231AA62700AEC496 /* TopPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageViewController.swift; sourceTree = "<group>"; };
 		675153A922F5EF77007634B1 /* inabaApp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inabaApp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675153AC22F5EF77007634B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		675153AE22F5EF77007634B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		675153AE22F5EF77007634B1 /* PlayGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
 		675153B122F5EF78007634B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		675153B322F5EF7A007634B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		675153B622F5EF7A007634B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,14 +72,14 @@
 		675153C822F5EF7A007634B1 /* inabaApp4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inabaApp4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		675153CC22F5EF7A007634B1 /* inabaApp4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inabaApp4UITests.swift; sourceTree = "<group>"; };
 		675153CE22F5EF7A007634B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		676F52E823713EAD00408FA3 /* chooseRankingTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseRankingTypeViewController.swift; sourceTree = "<group>"; };
-		676F52EA237155A700408FA3 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		676F52E823713EAD00408FA3 /* ChooseRankingTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRankingTypeViewController.swift; sourceTree = "<group>"; };
+		676F52EA237155A700408FA3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		676F52EC2371B83700408FA3 /* NameRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameRegisterViewController.swift; sourceTree = "<group>"; };
 		6775BDBD236ED2400045AD69 /* RankingWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingWorldViewController.swift; sourceTree = "<group>"; };
 		67EA3271236855D8005CB2E9 /* ultraSoulEditedForTitle1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ultraSoulEditedForTitle1.mp3; sourceTree = "<group>"; };
 		67EA3272236855D8005CB2E9 /* ultraSoulEditedForGame1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ultraSoulEditedForGame1.mp3; sourceTree = "<group>"; };
 		67EA3275236D844E005CB2E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		67F1CE25235C689A001D1E42 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		67F1CE25235C689A001D1E42 /* RankingLocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingLocalViewController.swift; sourceTree = "<group>"; };
 		72505A83B96C9FD56B010E71 /* Pods_inabaApp4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inabaApp4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -163,11 +163,11 @@
 				67EA3271236855D8005CB2E9 /* ultraSoulEditedForTitle1.mp3 */,
 				675153AC22F5EF77007634B1 /* AppDelegate.swift */,
 				6775BDBD236ED2400045AD69 /* RankingWorldViewController.swift */,
-				67F1CE25235C689A001D1E42 /* RankingViewController.swift */,
+				67F1CE25235C689A001D1E42 /* RankingLocalViewController.swift */,
 				674A658F231AA62700AEC496 /* TopPageViewController.swift */,
-				676F52E823713EAD00408FA3 /* chooseRankingTypeViewController.swift */,
-				676F52EA237155A700408FA3 /* menuViewController.swift */,
-				675153AE22F5EF77007634B1 /* ViewController.swift */,
+				676F52E823713EAD00408FA3 /* ChooseRankingTypeViewController.swift */,
+				676F52EA237155A700408FA3 /* MenuViewController.swift */,
+				675153AE22F5EF77007634B1 /* PlayGameViewController.swift */,
 				674A658D2318D03300AEC496 /* ViewController2.swift */,
 				676F52EC2371B83700408FA3 /* NameRegisterViewController.swift */,
 				675153B022F5EF78007634B1 /* Main.storyboard */,
@@ -423,15 +423,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676F52E923713EAD00408FA3 /* chooseRankingTypeViewController.swift in Sources */,
+				676F52E923713EAD00408FA3 /* ChooseRankingTypeViewController.swift in Sources */,
 				6775BDBE236ED2400045AD69 /* RankingWorldViewController.swift in Sources */,
-				67F1CE26235C689A001D1E42 /* RankingViewController.swift in Sources */,
-				675153AF22F5EF77007634B1 /* ViewController.swift in Sources */,
+				67F1CE26235C689A001D1E42 /* RankingLocalViewController.swift in Sources */,
+				675153AF22F5EF77007634B1 /* PlayGameViewController.swift in Sources */,
 				676F52ED2371B83700408FA3 /* NameRegisterViewController.swift in Sources */,
 				674A6590231AA62700AEC496 /* TopPageViewController.swift in Sources */,
 				675153AD22F5EF77007634B1 /* AppDelegate.swift in Sources */,
 				674A658E2318D03300AEC496 /* ViewController2.swift in Sources */,
-				676F52EB237155A700408FA3 /* menuViewController.swift in Sources */,
+				676F52EB237155A700408FA3 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
