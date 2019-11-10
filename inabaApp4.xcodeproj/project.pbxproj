@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		510BACDDD9C3F81B686048D8 /* Pods_inabaApp4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2350A2FDF6B123C4004FC8FC /* Pods_inabaApp4UITests.framework */; };
-		674A658E2318D03300AEC496 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A658D2318D03300AEC496 /* ViewController2.swift */; };
+		674A658E2318D03300AEC496 /* ResultViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A658D2318D03300AEC496 /* ResultViewController2.swift */; };
 		674A6590231AA62700AEC496 /* TopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A658F231AA62700AEC496 /* TopPageViewController.swift */; };
 		675153AD22F5EF77007634B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675153AC22F5EF77007634B1 /* AppDelegate.swift */; };
 		675153AF22F5EF77007634B1 /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675153AE22F5EF77007634B1 /* PlayGameViewController.swift */; };
@@ -57,7 +57,7 @@
 		480409FE5F82C9504C8D4049 /* Pods-inabaApp4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inabaApp4UITests.release.xcconfig"; path = "Target Support Files/Pods-inabaApp4UITests/Pods-inabaApp4UITests.release.xcconfig"; sourceTree = "<group>"; };
 		5D875A6CB7DD1176EB5A54E4 /* Pods_inabaApp4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inabaApp4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED162C590CF034101C22A84 /* Pods-inabaApp4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inabaApp4UITests.debug.xcconfig"; path = "Target Support Files/Pods-inabaApp4UITests/Pods-inabaApp4UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		674A658D2318D03300AEC496 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		674A658D2318D03300AEC496 /* ResultViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController2.swift; sourceTree = "<group>"; };
 		674A658F231AA62700AEC496 /* TopPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageViewController.swift; sourceTree = "<group>"; };
 		675153A922F5EF77007634B1 /* inabaApp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inabaApp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675153AC22F5EF77007634B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 				676F52E823713EAD00408FA3 /* ChooseRankingTypeViewController.swift */,
 				676F52EA237155A700408FA3 /* MenuViewController.swift */,
 				675153AE22F5EF77007634B1 /* PlayGameViewController.swift */,
-				674A658D2318D03300AEC496 /* ViewController2.swift */,
+				674A658D2318D03300AEC496 /* ResultViewController2.swift */,
 				676F52EC2371B83700408FA3 /* NameRegisterViewController.swift */,
 				675153B022F5EF78007634B1 /* Main.storyboard */,
 				675153B322F5EF7A007634B1 /* Assets.xcassets */,
@@ -430,7 +430,7 @@
 				676F52ED2371B83700408FA3 /* NameRegisterViewController.swift in Sources */,
 				674A6590231AA62700AEC496 /* TopPageViewController.swift in Sources */,
 				675153AD22F5EF77007634B1 /* AppDelegate.swift in Sources */,
-				674A658E2318D03300AEC496 /* ViewController2.swift in Sources */,
+				674A658E2318D03300AEC496 /* ResultViewController2.swift in Sources */,
 				676F52EB237155A700408FA3 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
