@@ -262,7 +262,7 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="8Pa-y4-zwb" secondAttribute="height" multiplier="51:8" id="a3K-hJ-mlW"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -934,7 +934,7 @@
                                 <rect key="frame" x="106" y="599" width="163" height="84"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="jxm-mX-LG7"/>
+                                    <constraint firstAttribute="height" constant="84" id="FV1-wm-Wxc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="閉じる"/>
@@ -942,58 +942,86 @@
                                     <action selector="exitMenuButton:" destination="2W9-dW-8Nr" eventType="touchUpInside" id="AhD-Iq-hy5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ご意見・バグのご報告などは こちらからお願い致します！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NdQ-3C-OnP">
-                                <rect key="frame" x="31" y="162" width="313" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ご意見・バグのご報告など" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NdQ-3C-OnP">
+                                <rect key="frame" x="31" y="157" width="313" height="37"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="85" id="Aef-dI-SOs"/>
+                                    <constraint firstAttribute="height" constant="37" id="m8Y-tv-yGb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="アプリ開発者へ連絡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1ng-EJ-w3p">
-                                <rect key="frame" x="20" y="80" width="334" height="81"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="81" id="7eX-ku-1nX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="●アプリ開発者へ連絡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1ng-EJ-w3p">
+                                <rect key="frame" x="20" y="111" width="334" height="50"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFh-Qc-G4C">
-                                <rect key="frame" x="125" y="255" width="125" height="55"/>
+                                <rect key="frame" x="125" y="202" width="125" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="3Hl-O6-pqn"/>
+                                    <constraint firstAttribute="height" constant="45" id="f91-w3-pmP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="連絡する">
+                                <state key="normal" title="＞こちら">
                                     <color key="titleColor" red="1" green="0.56555907520000004" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="contactDeveloperButton:" destination="2W9-dW-8Nr" eventType="touchUpInside" id="CP6-82-zi9"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="●開発者のホームページ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aqy-rR-Ju2">
+                                <rect key="frame" x="20" y="298" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="a6P-1Z-uBR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TvP-pt-2gP">
+                                <rect key="frame" x="125" y="356" width="125" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="gYP-Jg-FKs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="＞こちら">
+                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="developerWebSiteButton:" destination="2W9-dW-8Nr" eventType="touchUpInside" id="NkP-a8-mw7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.36078431370000003" green="0.7725490196" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="centerX" secondItem="NdQ-3C-OnP" secondAttribute="centerX" id="5Po-df-Isy"/>
-                            <constraint firstItem="asy-mc-Shy" firstAttribute="leading" secondItem="MeQ-JQ-sO1" secondAttribute="leading" constant="106" id="BdJ-C9-AT2"/>
-                            <constraint firstItem="NdQ-3C-OnP" firstAttribute="top" secondItem="1ng-EJ-w3p" secondAttribute="bottom" constant="1" id="JI9-So-41l"/>
-                            <constraint firstItem="jFh-Qc-G4C" firstAttribute="top" secondItem="NdQ-3C-OnP" secondAttribute="bottom" constant="8" id="KLs-JE-6Sz"/>
-                            <constraint firstItem="jFh-Qc-G4C" firstAttribute="centerX" secondItem="asy-mc-Shy" secondAttribute="centerX" id="L82-WH-EAQ"/>
-                            <constraint firstItem="MeQ-JQ-sO1" firstAttribute="bottom" secondItem="asy-mc-Shy" secondAttribute="bottom" constant="95" id="Z3P-gA-w0Z"/>
-                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="centerX" secondItem="nzQ-OD-Ad9" secondAttribute="centerX" id="ZKL-8I-I7c"/>
-                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="leading" secondItem="MeQ-JQ-sO1" secondAttribute="leading" constant="20" id="aTa-aV-bX5"/>
-                            <constraint firstItem="jFh-Qc-G4C" firstAttribute="leading" secondItem="MeQ-JQ-sO1" secondAttribute="leading" constant="125" id="cRe-fi-epk"/>
-                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="top" secondItem="MeQ-JQ-sO1" secondAttribute="top" constant="36" id="crc-wm-8qz"/>
-                            <constraint firstItem="NdQ-3C-OnP" firstAttribute="centerX" secondItem="jFh-Qc-G4C" secondAttribute="centerX" id="f36-2m-TES"/>
-                            <constraint firstItem="NdQ-3C-OnP" firstAttribute="leading" secondItem="MeQ-JQ-sO1" secondAttribute="leading" constant="31" id="pV5-zA-3Le"/>
+                            <constraint firstItem="asy-mc-Shy" firstAttribute="leading" secondItem="MeQ-JQ-sO1" secondAttribute="leading" constant="106" id="57b-NN-TZu"/>
+                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="centerX" secondItem="NdQ-3C-OnP" secondAttribute="centerX" id="7wU-wb-aVB"/>
+                            <constraint firstItem="NdQ-3C-OnP" firstAttribute="top" secondItem="MeQ-JQ-sO1" secondAttribute="top" constant="113" id="Cd0-Nq-w6A"/>
+                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="centerX" secondItem="nzQ-OD-Ad9" secondAttribute="centerX" id="DnH-sH-3o1"/>
+                            <constraint firstItem="jFh-Qc-G4C" firstAttribute="trailing" secondItem="TvP-pt-2gP" secondAttribute="trailing" id="H1d-QP-7TL"/>
+                            <constraint firstItem="TvP-pt-2gP" firstAttribute="top" secondItem="aqy-rR-Ju2" secondAttribute="bottom" constant="8" id="IVR-Ji-uHQ"/>
+                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="leading" secondItem="aqy-rR-Ju2" secondAttribute="leading" id="KC1-sN-5Z2"/>
+                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="top" secondItem="MeQ-JQ-sO1" secondAttribute="top" constant="67" id="LVC-x9-oAr"/>
+                            <constraint firstItem="MeQ-JQ-sO1" firstAttribute="bottom" secondItem="asy-mc-Shy" secondAttribute="bottom" constant="95" id="Ql9-2X-dUg"/>
+                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="trailing" secondItem="aqy-rR-Ju2" secondAttribute="trailing" id="TTC-q5-DyV"/>
+                            <constraint firstItem="jFh-Qc-G4C" firstAttribute="top" secondItem="NdQ-3C-OnP" secondAttribute="bottom" constant="8" id="Yfw-2e-QZD"/>
+                            <constraint firstItem="jFh-Qc-G4C" firstAttribute="top" secondItem="1ng-EJ-w3p" secondAttribute="bottom" constant="41" id="bFm-9I-bEq"/>
+                            <constraint firstItem="1ng-EJ-w3p" firstAttribute="leading" secondItem="MeQ-JQ-sO1" secondAttribute="leading" constant="20" id="gJO-qg-Ist"/>
+                            <constraint firstItem="aqy-rR-Ju2" firstAttribute="top" secondItem="jFh-Qc-G4C" secondAttribute="bottom" constant="51" id="mlF-I6-GiW"/>
+                            <constraint firstItem="TvP-pt-2gP" firstAttribute="centerX" secondItem="asy-mc-Shy" secondAttribute="centerX" id="ph1-hL-wK2"/>
+                            <constraint firstItem="NdQ-3C-OnP" firstAttribute="centerX" secondItem="jFh-Qc-G4C" secondAttribute="centerX" id="w9M-3n-pvR"/>
+                            <constraint firstItem="NdQ-3C-OnP" firstAttribute="leading" secondItem="MeQ-JQ-sO1" secondAttribute="leading" constant="31" id="wE5-iN-2PB"/>
+                            <constraint firstItem="jFh-Qc-G4C" firstAttribute="leading" secondItem="MeQ-JQ-sO1" secondAttribute="leading" constant="125" id="xFk-YF-W9A"/>
+                            <constraint firstItem="jFh-Qc-G4C" firstAttribute="leading" secondItem="TvP-pt-2gP" secondAttribute="leading" id="xJy-Ue-fuS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MeQ-JQ-sO1"/>
                     </view>
                     <connections>
                         <outlet property="contactDeveloperButton" destination="jFh-Qc-G4C" id="dBc-TH-9l8"/>
+                        <outlet property="developerWebSiteButton" destination="TvP-pt-2gP" id="3lP-bM-JBz"/>
                         <outlet property="exitMenuButton" destination="asy-mc-Shy" id="J4p-Vy-9l5"/>
                     </connections>
                 </viewController>

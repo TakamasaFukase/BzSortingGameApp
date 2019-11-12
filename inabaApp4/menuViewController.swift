@@ -17,6 +17,12 @@ class menuViewController: UIViewController {
         openSafariView(urlString: developerContactURL)
     }
     
+    @IBOutlet weak var developerWebSiteButton: UIButton!
+    @IBAction func developerWebSiteButton(_ sender: Any) {
+        openSafariView(urlString: developerWebSite)
+    }
+    
+    
     
     
     @IBOutlet weak var exitMenuButton: UIButton!
@@ -25,6 +31,7 @@ class menuViewController: UIViewController {
     }
     
     let developerContactURL = "https://www.instagram.com/fukase_1783/"
+    let developerWebSite = "http://takamasafukase.com/index.html"
     
 
     override func viewDidLoad() {
@@ -33,6 +40,9 @@ class menuViewController: UIViewController {
         contactDeveloperButton.layer.borderColor = UIColor.blue.cgColor
         contactDeveloperButton.layer.borderWidth = 2.0
         contactDeveloperButton.layer.cornerRadius = 20.0
+        developerWebSiteButton.layer.borderColor = UIColor.blue.cgColor
+        developerWebSiteButton.layer.borderWidth = 2.0
+        developerWebSiteButton.layer.cornerRadius = 20.0
         
         exitMenuButton.layer.borderColor = UIColor.blue.cgColor
         exitMenuButton.layer.borderWidth = 2.0
