@@ -25,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         db = Firestore.firestore()
         
         // [END default_firestore]
+        //テスト１２月１８日
         
         return true
     }
