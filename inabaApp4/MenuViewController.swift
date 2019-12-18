@@ -11,7 +11,6 @@ import SafariServices
 
 class menuViewController: UIViewController {
     
-    
     @IBOutlet weak var contactDeveloperButton: UIButton!
     @IBAction func contactDeveloperButton(_ sender: Any) {
         openSafariView(urlString: developerContactURL)
